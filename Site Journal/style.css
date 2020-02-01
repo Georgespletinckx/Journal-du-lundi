@@ -1,0 +1,177 @@
+/* Normaliser navigateur */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', cursive;
+}
+
+/* Mise en forme font */
+
+/* font-family: 'Montserrat', sans-serif; */
+
+h1{
+    display: inline;
+    font-size: 2em;
+    padding: 1em;
+    margin-left: 5em;
+}
+
+
+/* Mise en forme de mon menu1 */
+
+.barnoir{
+    padding: 1.5em; 
+}
+
+.intro{
+    display: inline;
+}
+
+ul,a {
+    text-decoration: none;
+    padding: 1em 1em;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu{
+    color: black;
+}
+
+.menu1{
+    color:red
+}
+
+.menu2{
+    color:red;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    display: inline;
+    font-size: 1.5em;
+}
+
+nav1{
+    float: right;
+}
+
+/* Mise en forme menu2 */
+
+.barnoir2{
+    margin-left: 20em;
+}
+
+nav2,ul,a{
+    color:black
+}
+
+nav2,ul{
+    display:flex;
+}
+
+/* Mise en forme header */
+
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+}
+
+.case1{
+    margin-left: 1em;
+}
+
+h3{
+    padding: 1em 0;
+}
+
+h4{
+    padding: 1em 0;
+}
+
+p{
+    display: inline;
+}
+
+.sect2{
+    background-color: rgb(198, 198, 199);
+    padding-left: 33em;
+    margin: 1em 0;
+}
+
+h5{
+    font-size: 2em;
+}
+
+.formlist{
+    color: black;
+    background-color: rgb(198, 198, 199);
+    border-style: hidden;
+}
+
+.inscri{
+    color: white;
+    background-color: black;
+    border-style: hidden;
+}
+
+.sect3{
+    display: grid;
+    grid-template-columns: repeat(2, 70% 30%);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 2em;
+}
+
+.sect31{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.sect32{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.sect33{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.sect34{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+h6{
+    font-size: 2em;
+    border-bottom: rgb(160, 160, 160);
+    border-style: solid;
+    border-width: 2px;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+.case221{
+    display: flex;
+}
+
+.photo2{
+    margin: auto;
+}
+
+.pop{
+    display:flex;
+    margin: auto;
+}
